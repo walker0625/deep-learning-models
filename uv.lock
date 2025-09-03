@@ -582,6 +582,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "jupyter" },
+    { name = "matplotlib" },
     { name = "roboflow" },
     { name = "ultralytics" },
 ]
@@ -589,6 +590,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "matplotlib", specifier = ">=3.10.6" },
     { name = "roboflow", specifier = ">=1.2.7" },
     { name = "ultralytics", specifier = ">=8.3.191" },
 ]
